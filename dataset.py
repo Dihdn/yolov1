@@ -19,7 +19,6 @@ class new_data_dataset(Dataset):
         self.data_path = data_path
         self.resize = resize
         self.map_size = map_size
-
         #获取路径中所有图片名称
         img_path = data_path+"\\train_img"
         xml_path = data_path+"\\train_xml"

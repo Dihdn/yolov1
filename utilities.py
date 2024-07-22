@@ -103,7 +103,6 @@ def get_label(xml_path, img_size:tuple, resize, map_size:tuple, class_list:list)
     return blank_canvas
 
 
-
 ###zyz
 
 def convert(size, box):
